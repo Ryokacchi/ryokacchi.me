@@ -48,7 +48,7 @@ function NavLink({ children, ...props }) {
 		// @ts-ignore
 		<Link
 			target="_blank"
-			className="h-9 w-9 flex items-center justify-center bg-zinc-0 ring-1 text-white/70 hover:text-white cursor-pointer backdrop-blur-sm bg-zinc-800/30 ring-white/10 rounded-full shadow-inner shadow-black/10 relative transition-all"
+			className="transition-all duration-200 cursor-pointer overflow-hidden bg-zinc-800/30 shadow-inner shadow-zinc-700/40 backdrop-blur w-9 h-9 rounded-full flex items-center justify-center font-bold text-xs text-white/70 hover:text-white/90 uppercase"
 			{...props}
 		>
 			{children}
